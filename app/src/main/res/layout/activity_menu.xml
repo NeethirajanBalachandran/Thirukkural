@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_centerHorizontal="true"
+	android:layout_centerVertical="true"
+	android:orientation="vertical" 
+	android:gravity="center"
+    android:background="@drawable/background_1">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/btnselectpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/select_part1" />
+        <Button
+            android:id="@+id/button2"
+            style="@style/btnselectpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/select_part2" />
+        
+        <Button
+            android:id="@+id/button3"
+            style="@style/btnselectpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_part3" />
+
+
+	<com.google.android.gms.ads.AdView
+		android:id="@+id/adView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		ads:adSize="BANNER"
+		ads:adUnitId="@string/banner_ad_unit_id" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">திருக்குறள்</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_level1">Level1</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_next">Next</string>
+    <string name="title_activity_selector">Selector</string>
+    <string name="title_activity_normal">Normal</string>
+    <string name="title_activity_random">Random</string>
+    <string name="title_activity_list">List</string>
+    <string name="button">---</string>
+    <string name="start">தொடக்கம்</string>
+    <string name="check">சரி பார்</string>
+    <string name="title">திருக்குறள்</string>
+    <string name="prev">முந்தைய</string>
+    <string name="btn_mainmenu">பட்டியல்</string>
+    <string name="btn_retry">மீண்டும் முயற்சி</string>
+    <string name="btn_next">அடுத்து</string>
+    <string name="btn_ok">சரி</string>
+    <string name="help">cjtp</string>
+    <string name="left">&lt;</string>
+    <string name="right">&gt;</string>
+    <string name="select_normal">முறையான வரிசையில்</string>
+    <string name="select_random">முறையற்ற வரிசையில்</string>
+    <string name="select_part1">அறத்துப்பால்</string>
+    <string name="select_part2">பொருட்பால்</string>
+    <string name="select_part3">காமத்துப்பால்</string>
+    <string name="tilte_tagline">வார்த்தையை வரிசைப்படுத்தவும்</string>
+    <string name="athigaram">அதிகாரம்</string>
+    <string name="kural">குறள்</string>
+    <string name="comingSoon">விரைவில்</string>
+    <string name="btn_yes">ஆம்</string>
+    <string name="btn_no">இல்லை</string>
+    <string name="exitha">நிச்சயமாக வெளியேற வேண்டுமா?</string>
+    <string name="help_msg">குறள் வரிசையை 5 நொடி பார்க்க</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="a1"></string>
+    <string name="a2"></string>
+    <string name="a3"></string>
+    <string name="a4"></string>
+    <string name="a5"></string>
+    <string name="a6"></string>
+    <string name="a7"></string>
+    <string name="a8"></string>
+    <string name="a9"></string>
+    <string name="a10"></string>
+    <string name="a11"></string>
+    <string name="a12"></string>
+    <string name="a13"></string>
+    <string name="title_activity_kural_game">KuralGame</string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="title_activity_check">Check</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-1233786554019860/9065732635</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

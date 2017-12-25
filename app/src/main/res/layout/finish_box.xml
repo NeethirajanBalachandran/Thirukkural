@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_1"
+    android:orientation="vertical"
+    android:layout_margin="2dip"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/completed" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            android:src="@drawable/star" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            android:src="@drawable/star" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            android:src="@drawable/star" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            android:src="@drawable/star" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:contentDescription="@string/hello_world"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:visibility="visible"
+            android:src="@drawable/star" />
+
+    </LinearLayout>
+    
+	<LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"  >
+
+     	<Button
+     	    android:id="@+id/MainMenu"
+     	    style="@style/btn_style_2"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_marginRight="5dp"
+			android:textSize="15sp"
+     	    android:text="@string/btn_mainmenu" />
+
+       	<Button
+       	    android:id="@+id/Retry"
+       	    style="@style/btn_style_2"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_marginRight="5dp"
+			android:textSize="15sp"
+       	    android:text="@string/btn_retry" />
+
+         <Button
+             android:id="@+id/Next"
+             style="@style/btn_style_2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+			 android:textSize="15sp"
+             android:text="@string/btn_next" />
+	</LinearLayout>
+</LinearLayout>
