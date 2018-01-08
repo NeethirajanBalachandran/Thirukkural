@@ -652,7 +652,7 @@ public class KuralGame extends Activity implements OnTouchListener {
 	              public void run() {
 	            	  	//Do something after 1000ms
 	            	  	TextView txt = layoutover.findViewById(R.id.time);
-	          			txt.setText((delay - 1));
+	          			txt.setText((delay - 1) + "");
 	          			delay = delay - 1;
 	          			if (delay == 0)
 	          			{
@@ -662,7 +662,7 @@ public class KuralGame extends Activity implements OnTouchListener {
 	          				star_count = star_count - 1;
 	          			}
 	              }
-	            }, 1000 * i);
+	            }, 1300 * i);
             }
         }
     };
